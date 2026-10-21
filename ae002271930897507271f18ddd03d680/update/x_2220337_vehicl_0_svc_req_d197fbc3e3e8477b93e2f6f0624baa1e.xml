@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_2220337_vehicl_0_svc_req">
+    <x_2220337_vehicl_0_svc_req action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <cancellation_reason/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <customer display_value="Johnson">c5048ded3eda4b19a330f689e11b4e59</customer>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <estimated_cost>200</estimated_cost>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <mechanic display_value="Williams">425c42bc4d614043b7e8a4c8c578c9c8</mechanic>
+        <number/>
+        <odometer_reading>60000</odometer_reading>
+        <opened_at/>
+        <opened_by/>
+        <order/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <route_reason/>
+        <service_date>2025-03-01</service_date>
+        <service_offering/>
+        <service_type>general_service</service_type>
+        <short_description>General service for Toyota Camry</short_description>
+        <sla_due/>
+        <state>1</state>
+        <status>booked</status>
+        <sys_class_name>x_2220337_vehicl_0_svc_req</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 08:17:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d197fbc3e3e8477b93e2f6f0624baa1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 08:17:01</sys_updated_on>
+        <task_effective_number/>
+        <time_slot>afternoon</time_slot>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <vehicle display_value="">c6eac33b6c9146da8e8ea07ed242d1d4</vehicle>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_2220337_vehicl_0_svc_req>
+</record_update>

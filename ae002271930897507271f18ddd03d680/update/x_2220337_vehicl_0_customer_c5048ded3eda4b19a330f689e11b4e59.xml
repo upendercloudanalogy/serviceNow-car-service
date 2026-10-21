@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_2220337_vehicl_0_customer">
+    <x_2220337_vehicl_0_customer action="INSERT_OR_UPDATE">
+        <address>123 Maple Street, Springfield</address>
+        <contact_number>555-0101</contact_number>
+        <customer_type>premium</customer_type>
+        <email>alice.johnson@example.com</email>
+        <first_name>Alice</first_name>
+        <last_name>Johnson</last_name>
+        <number/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 08:16:57</sys_created_on>
+        <sys_id>c5048ded3eda4b19a330f689e11b4e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 08:16:57</sys_updated_on>
+        <user/>
+        <work_notes/>
+    </x_2220337_vehicl_0_customer>
+</record_update>

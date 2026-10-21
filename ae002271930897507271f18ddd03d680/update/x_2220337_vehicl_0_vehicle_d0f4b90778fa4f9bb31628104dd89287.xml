@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_2220337_vehicl_0_vehicle">
+    <x_2220337_vehicl_0_vehicle action="INSERT_OR_UPDATE">
+        <fuel_type>petrol</fuel_type>
+        <last_service_date/>
+        <make>Royal Enfield</make>
+        <model>Classic 350</model>
+        <number/>
+        <owner display_value="Singh">e830eb86e03c4a29949e503474547b3f</owner>
+        <registration_number>MNO-9012</registration_number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 08:17:07</sys_created_on>
+        <sys_id>d0f4b90778fa4f9bb31628104dd89287</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 08:17:07</sys_updated_on>
+        <vehicle_type>bike</vehicle_type>
+        <work_notes/>
+    </x_2220337_vehicl_0_vehicle>
+</record_update>
