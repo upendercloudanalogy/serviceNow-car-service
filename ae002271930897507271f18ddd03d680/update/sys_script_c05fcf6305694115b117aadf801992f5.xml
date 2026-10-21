@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_2220337_vehicl_0_svc_req</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate Service Booking</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    // Set defaults on insert
+    if (current.operation() == 'insert') {
+        current.setValue('status', 'booked');
+    }
+
+    // Block past service dates
+    var serviceDate = current.getValue('service_date');
+    if (serviceDate) {
+        var today = new GlideDate();
+        var sd = new GlideDate();
+        sd.setValue(serviceDate);
+        if (sd.compareTo(today) < 0) {
+            gs.addErrorMessage('Service date cannot be in the past.');
+            current.setAbortAction(true);
+            return;
+        }
+    }
+
+    // Limit active jobs per mechanic to 3 per day
+    if (current.getValue('mechanic') && current.getValue('service_date')) {
+        var count = new GlideAggregate('x_2220337_vehicl_0_svc_req');
+        count.addQuery('mechanic', current.getValue('mechanic'));
+        count.addQuery('service_date', current.getValue('service_date'));
+        count.addQuery('status', 'IN', 'booked,in_service');
+        if (!current.isNewRecord()) {
+            count.addQuery('sys_id', '!=', current.getUniqueValue());
+        }
+        count.addAggregate('COUNT');
+        count.query();
+        if (count.next()) {
+            var activeJobs = parseInt(count.getAggregate('COUNT'));
+            if (activeJobs >= 3) {
+                gs.addErrorMessage('This mechanic already has 3 active jobs on ' + current.getDisplayValue('service_date') + '. Please choose another mechanic or date.');
+                current.setAbortAction(true);
+                return;
+            }
+        }
+    }
+
+    // Set Premium customer priority to High
+    if (current.getValue('customer')) {
+        var cust = new GlideRecord('x_2220337_vehicl_0_customer');
+        if (cust.get(current.getValue('customer'))) {
+            if (cust.getValue('customer_type') == 'premium') {
+                current.setValue('priority', '2');
+            }
+        }
+    }
+
+    // Close task on Delivered or Cancelled
+    var statusVal = current.getValue('status');
+    if (statusVal == 'delivered') {
+        current.setValue('state', '3');
+    } else if (statusVal == 'cancelled') {
+        current.setValue('state', '4');
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:57:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c05fcf6305694115b117aadf801992f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Service Booking</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_script_c05fcf6305694115b117aadf801992f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:57:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c05fcf6305694115b117aadf801992f5"/>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_2220337_vehicl_0.VehicleUtilsAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>VehicleUtilsAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var VehicleUtilsAjax = Class.create();
+VehicleUtilsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getVehicleDetails: function() {
+        var id = this.getParameter('sysparm_vehicle');
+        var gr = new GlideRecord('x_2220337_vehicl_0_vehicle');
+
+        if (!gr.get(id)) return '';
+
+        return JSON.stringify({
+            ownerId: gr.getValue('owner'),
+            ownerName: gr.owner.getDisplayValue(),
+            model: gr.getValue('make') + ' ' + gr.getValue('model'),
+            lastService: gr.getDisplayValue('last_service_date') || 'Never',
+            premium: gr.owner.customer_type == 'premium'
+        });
+    },
+
+    type: 'VehicleUtilsAjax'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:57:10</sys_created_on>
+        <sys_id>e4644104af0e47db931e707302b7c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VehicleUtilsAjax</sys_name>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_script_include_e4644104af0e47db931e707302b7c767</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:57:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

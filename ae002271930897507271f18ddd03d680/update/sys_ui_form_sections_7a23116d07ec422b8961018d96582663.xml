@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7a23116d07ec422b8961018d96582663" sys_domain="global" table="x_2220337_vehicl_0_mechanic" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99a0013a101c40a3b3ec22951200d659</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
+            <sys_ui_section display_value="">f3a1230dcbcc429d8a2d308c9fa510b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be5ab57728a543b099200bf5d67ca026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
+            <sys_ui_section display_value="">6f4e0f0c3a2341c58876c63dbcd5bbd3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02a3261b8fd14ace9350360ae44907d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
+            <sys_ui_section display_value="">66f4ca3c564b42e58479c7cd211084b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eed3370bed154c8a9a337cc452786cc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
+            <sys_ui_section display_value="">1886052c38534b9a847bf243aa6d1b7c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2220337_vehicl_0_mechanic</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a23116d07ec422b8961018d96582663</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220337_vehicl_0_mechanic</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7a23116d07ec422b8961018d96582663</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

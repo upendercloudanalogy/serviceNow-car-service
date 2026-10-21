@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:57:28</sys_created_on>
+        <sys_id>5a2d07b0b0b54b229ab4c40a7c1b9944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start Service.</sys_name>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_ui_action display_value="Start Service">09f15beb3111452cb20981d6a846371d</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_5a2d07b0b0b54b229ab4c40a7c1b9944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:57:28</sys_updated_on>
+        <sys_user_role display_value="">f5a434f61c8c48f09d5a0dced5253c47</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

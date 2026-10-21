@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a067d3b65f274f5bbff94f89fc0d5820" sys_domain="global" table="x_2220337_vehicl_0_svc_req" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6287d66a3b749379fcc698aedfffea2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_svc_req" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">a067d3b65f274f5bbff94f89fc0d5820</sys_ui_form>
+            <sys_ui_section display_value="">70085bc1972a4d3885caa9a6615bdcf8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea589213b59e4a7ba5ac9274eb20f1fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_svc_req" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">a067d3b65f274f5bbff94f89fc0d5820</sys_ui_form>
+            <sys_ui_section display_value="">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>beb620b1e6fe4c049ed7346e73edd99a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_svc_req" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">a067d3b65f274f5bbff94f89fc0d5820</sys_ui_form>
+            <sys_ui_section display_value="">c9772ce950d149b7a7924cda9a85fce3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a067d3b65f274f5bbff94f89fc0d5820</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220337_vehicl_0_svc_req</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a067d3b65f274f5bbff94f89fc0d5820</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

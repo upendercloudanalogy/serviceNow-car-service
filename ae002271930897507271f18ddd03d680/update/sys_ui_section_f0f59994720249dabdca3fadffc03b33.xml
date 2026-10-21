@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Vehicle Information" section_id="f0f59994720249dabdca3fadffc03b33" sys_domain="global" table="x_2220337_vehicl_0_vehicle" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>e0748b17c71749cd9c5282b83d0ed369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>b6f26468809b40a7af61e8ea538bc6cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>662fbe88be4e4b158fabec722f87e473</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>4f5cf3d2e0d04c92920f4a5c5e39798c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>2728e9e5d40346a88416f6005a28c00b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registration_number</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>edd5ea7f525740ad855fcfdb91d4978f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>make</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>4381ec6914fb497da23f3f5596fc32c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fuel_type</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>faf3bd9257be4f85837ab52fec44a8f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:08</sys_created_on>
+            <sys_id>0a054f154c614bf6ba426ad30cd61f66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vehicle Information</caption>
+            <header>false</header>
+            <name>x_2220337_vehicl_0_vehicle</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0f59994720249dabdca3fadffc03b33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220337_vehicl_0_vehicle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+            <sys_update_name>sys_ui_section_f0f59994720249dabdca3fadffc03b33</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_2220337_vehicl_0_svc_req" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:56:48</sys_created_on>
+            <sys_id>0e3dd27de772456e8567e7da2fdf61d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+            <sys_update_name>sys_choice_x_2220337_vehicl_0_svc_req_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:56:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Booked</label>
+            <language>en</language>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:56:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f65b7df0c4f04843b4e98651f011e8ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:56:48</sys_updated_on>
+            <value>booked</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Service</label>
+            <language>en</language>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>307864904f134847bed55607106d527a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:56:49</sys_updated_on>
+            <value>in_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ready for Pickup</label>
+            <language>en</language>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:56:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2df0e4e4cec43719d7a1295dd637dc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:56:50</sys_updated_on>
+            <value>ready_for_pickup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivered</label>
+            <language>en</language>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:56:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83f1defef0de49dab221c360974551f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:56:51</sys_updated_on>
+            <value>delivered</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:56:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bda1195ee42f4b2c9a1d667f777e1a3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:56:52</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

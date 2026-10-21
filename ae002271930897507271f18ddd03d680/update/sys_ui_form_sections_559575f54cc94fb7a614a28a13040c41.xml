@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="559575f54cc94fb7a614a28a13040c41" sys_domain="global" table="x_2220337_vehicl_0_vehicle" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebef202fcff348999921ca56a4e3c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
+            <sys_ui_section display_value="">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b866059e255a4fa2af165146c76bae89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
+            <sys_ui_section display_value="">a2b8e720f75e4ea1af98244f191763ec</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c96e936f01654034934fbad5ebf65bc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
+            <sys_ui_section display_value="">8e61eb573046490f8e61d8608fc3a57d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>319195c6d4e14e2ea5bcb97b2e82f33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
+            <sys_ui_section display_value="">27f64c82f9f44ceaaa6870218e65daf1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2220337_vehicl_0_vehicle</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:57:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>559575f54cc94fb7a614a28a13040c41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220337_vehicl_0_vehicle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+            <sys_update_name>sys_ui_form_sections_559575f54cc94fb7a614a28a13040c41</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:57:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

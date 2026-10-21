@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:57:19</sys_created_on>
+        <sys_id>82873190d7f84ad9af1ceed2111ec3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2220337_vehicl_0_svc_req.x_2220337_vehicl_0.service_mechanic</sys_name>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_security_acl display_value="x_2220337_vehicl_0_svc_req">6e43e5923ad34f2781806a399bd3acee</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_82873190d7f84ad9af1ceed2111ec3ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:57:19</sys_updated_on>
+        <sys_user_role display_value="">ed8165237f0946ed86f16f4cde0247a3</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
