@@ -13,6 +13,6 @@
         <sys_update_name>sys_security_acl_role_1d291f57b69c4403adfb91d92ad4cad9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-10-21 07:57:17</sys_updated_on>
-        <sys_user_role display_value="">3d044d6618de49d48a1b9105764e097d</sys_user_role>
+        <sys_user_role display_value="x_2220337_vehicl_0.service_customer" name="x_2220337_vehicl_0.service_customer">3d044d6618de49d48a1b9105764e097d</sys_user_role>
     </sys_security_acl_role>
 </record_update>

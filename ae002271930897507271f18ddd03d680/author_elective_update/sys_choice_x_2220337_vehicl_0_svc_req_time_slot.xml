@@ -1,60 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="customer_type" table="x_2220337_vehicl_0_customer" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="time_slot" table="x_2220337_vehicl_0_svc_req" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>customer_type</element>
-            <name>x_2220337_vehicl_0_customer</name>
+            <element>time_slot</element>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:41</sys_created_on>
-            <sys_id>42e147cfed69480eb9520a272cbd2cea</sys_id>
+            <sys_created_on>2026-10-21 07:56:53</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>customer_type</sys_name>
+            <sys_name>time_slot</sys_name>
             <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
             <sys_policy/>
             <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
-            <sys_update_name>sys_choice_x_2220337_vehicl_0_customer_customer_type</sys_update_name>
+            <sys_update_name>sys_choice_x_2220337_vehicl_0_svc_req_time_slot</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:41</sys_updated_on>
+            <sys_updated_on>2026-10-21 07:56:53</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>customer_type</element>
+            <element>time_slot</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Regular</label>
+            <label>Morning</label>
             <language>en</language>
-            <name>x_2220337_vehicl_0_customer</name>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:41</sys_created_on>
+            <sys_created_on>2026-10-21 07:56:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0391230d98be4d4ea1f84f71bfa48a34</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:41</sys_updated_on>
-            <value>regular</value>
+            <sys_updated_on>2026-10-21 07:56:53</sys_updated_on>
+            <value>morning</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>customer_type</element>
+            <element>time_slot</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Premium</label>
+            <label>Afternoon</label>
             <language>en</language>
-            <name>x_2220337_vehicl_0_customer</name>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:41</sys_created_on>
+            <sys_created_on>2026-10-21 07:56:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f8f0ed58a13c40a2b5105d2cdeff4921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:41</sys_updated_on>
-            <value>premium</value>
+            <sys_updated_on>2026-10-21 07:56:54</sys_updated_on>
+            <value>afternoon</value>
         </sys_choice>
     </sys_choice>
 </record_update>

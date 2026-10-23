@@ -16,7 +16,7 @@
         <label>Customer</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_2220337_vehicl_0_customer</name>
-        <number_ref display_value="">fe272ffe31b14bcb9e1f92534cf4da8b</number_ref>
+        <number_ref display_value="CUS">fe272ffe31b14bcb9e1f92534cf4da8b</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

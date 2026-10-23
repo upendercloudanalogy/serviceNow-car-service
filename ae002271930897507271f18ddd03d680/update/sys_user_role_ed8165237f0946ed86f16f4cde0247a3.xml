@@ -2,9 +2,9 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Updates progress on assigned jobs</description>
+        <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>v0Jbm175li9hOs+DGHeXq4k2u84nKH4mdavlxtVq5OQ=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_2220337_vehicl_0.service_mechanic</name>

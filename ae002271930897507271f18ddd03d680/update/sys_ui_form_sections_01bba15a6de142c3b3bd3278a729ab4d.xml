@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_customer" name="x_2220337_vehicl_0_customer" sys_domain="global" view="Default view">01bba15a6de142c3b3bd3278a729ab4d</sys_ui_form>
-            <sys_ui_section display_value="">08e838701a0a44ae86855a5117a86640</sys_ui_section>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_2220337_vehicl_0_customer" sys_domain="global" view="Default view">08e838701a0a44ae86855a5117a86640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:29</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_customer" name="x_2220337_vehicl_0_customer" sys_domain="global" view="Default view">01bba15a6de142c3b3bd3278a729ab4d</sys_ui_form>
-            <sys_ui_section display_value="">2192b8af811f45f8959e82785325cf5d</sys_ui_section>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_2220337_vehicl_0_customer" sys_domain="global" view="Default view">2192b8af811f45f8959e82785325cf5d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:29</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_customer" name="x_2220337_vehicl_0_customer" sys_domain="global" view="Default view">01bba15a6de142c3b3bd3278a729ab4d</sys_ui_form>
-            <sys_ui_section display_value="">638e0a57a30844a098e4d5a03b9db302</sys_ui_section>
+            <sys_ui_section caption="Activity/Notes" display_value="Activity/Notes" name="x_2220337_vehicl_0_customer" sys_domain="global" view="Default view">638e0a57a30844a098e4d5a03b9db302</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:29</sys_updated_on>
         </sys_ui_form_section>

@@ -2,9 +2,9 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Customers who can view their own vehicles and service requests</description>
+        <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>CyOUVEwg6zRGWUQ2PB4NdGoTIs5qC1dNNElETleSKrI=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_2220337_vehicl_0.service_customer</name>

@@ -1,100 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="fuel_type" table="x_2220337_vehicl_0_vehicle" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="service_type" table="x_2220337_vehicl_0_svc_req" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>fuel_type</element>
-            <name>x_2220337_vehicl_0_vehicle</name>
+            <element>service_type</element>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:58</sys_created_on>
-            <sys_id>0ff194a5b25444d7b27ef97b64e6e630</sys_id>
+            <sys_created_on>2026-10-21 07:56:45</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>fuel_type</sys_name>
+            <sys_name>service_type</sys_name>
             <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
             <sys_policy/>
             <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
-            <sys_update_name>sys_choice_x_2220337_vehicl_0_vehicle_fuel_type</sys_update_name>
+            <sys_update_name>sys_choice_x_2220337_vehicl_0_svc_req_service_type</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:58</sys_updated_on>
+            <sys_updated_on>2026-10-21 07:56:45</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>fuel_type</element>
+            <element>service_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Petrol</label>
+            <label>General Service</label>
             <language>en</language>
-            <name>x_2220337_vehicl_0_vehicle</name>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:58</sys_created_on>
+            <sys_created_on>2026-10-21 07:56:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>28ec934483de4edeb2fb43f77306646b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:58</sys_updated_on>
-            <value>petrol</value>
+            <sys_updated_on>2026-10-21 07:56:45</sys_updated_on>
+            <value>general_service</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>fuel_type</element>
+            <element>service_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Diesel</label>
+            <label>Oil Change</label>
             <language>en</language>
-            <name>x_2220337_vehicl_0_vehicle</name>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:59</sys_created_on>
+            <sys_created_on>2026-10-21 07:56:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b7a050d895ce4059afe10e126f77e9d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:59</sys_updated_on>
-            <value>diesel</value>
+            <sys_updated_on>2026-10-21 07:56:45</sys_updated_on>
+            <value>oil_change</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>fuel_type</element>
+            <element>service_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>CNG</label>
+            <label>Repair</label>
             <language>en</language>
-            <name>x_2220337_vehicl_0_vehicle</name>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:59</sys_created_on>
+            <sys_created_on>2026-10-21 07:56:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0de519d916fc41738a224bde72606895</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:59</sys_updated_on>
-            <value>cng</value>
+            <sys_updated_on>2026-10-21 07:56:46</sys_updated_on>
+            <value>repair</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>fuel_type</element>
+            <element>service_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Electric</label>
+            <label>Inspection</label>
             <language>en</language>
-            <name>x_2220337_vehicl_0_vehicle</name>
+            <name>x_2220337_vehicl_0_svc_req</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-21 07:56:59</sys_created_on>
+            <sys_created_on>2026-10-21 07:56:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7a44e9782f6b4847add71135d16b9c5d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-21 07:56:59</sys_updated_on>
-            <value>electric</value>
+            <sys_updated_on>2026-10-21 07:56:47</sys_updated_on>
+            <value>inspection</value>
         </sys_choice>
     </sys_choice>
 </record_update>

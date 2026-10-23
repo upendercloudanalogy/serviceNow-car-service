@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_svc_req" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">a067d3b65f274f5bbff94f89fc0d5820</sys_ui_form>
-            <sys_ui_section display_value="">70085bc1972a4d3885caa9a6615bdcf8</sys_ui_section>
+            <sys_ui_section caption="Booking Details" display_value="Booking Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">70085bc1972a4d3885caa9a6615bdcf8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_svc_req" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">a067d3b65f274f5bbff94f89fc0d5820</sys_ui_form>
-            <sys_ui_section display_value="">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_svc_req" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">a067d3b65f274f5bbff94f89fc0d5820</sys_ui_form>
-            <sys_ui_section display_value="">c9772ce950d149b7a7924cda9a85fce3</sys_ui_section>
+            <sys_ui_section caption="Activity/Notes" display_value="Activity/Notes" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">c9772ce950d149b7a7924cda9a85fce3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:36</sys_updated_on>
         </sys_ui_form_section>

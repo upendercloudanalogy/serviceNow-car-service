@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="918f7e384e034de5b02083d86a82835f" label="Mechanic" name="x_2220337_vehicl_0_mechanic" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" label="Number" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Contact Number" mandatory="true" max_length="40" name="contact_number" type="string"/>
+        <element default="true" label="Active" name="active" type="boolean"/>
+        <element label="Work Notes" name="work_notes" type="journal_input"/>
+        <element display="true" label="Last Name" mandatory="true" name="last_name" type="string"/>
+        <element label="First Name" mandatory="true" name="first_name" type="string"/>
+        <element label="Email" mandatory="true" name="email" type="email"/>
+        <element label="Specialization" mandatory="true" name="specialization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Body Work" sequence="4" value="body_work"/>
+                <element inactive_on_update="false" label="Electrical" sequence="3" value="electrical"/>
+                <element inactive_on_update="false" label="General" sequence="1" value="general"/>
+                <element inactive_on_update="false" label="Engine" sequence="2" value="engine"/>
+            </choice>
+        </element>
+        <element label="User" name="user" reference="sys_user" type="reference"/>
+        <index name="index" unique="true">
+            <element name="email"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

@@ -16,7 +16,7 @@
         <label>Vehicle</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_2220337_vehicl_0_vehicle</name>
-        <number_ref display_value="">aa104da6c3a34e96ab38c0214ee71119</number_ref>
+        <number_ref display_value="VEH">aa104da6c3a34e96ab38c0214ee71119</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

@@ -16,7 +16,7 @@
         <label>Service Request</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_2220337_vehicl_0_svc_req</name>
-        <number_ref display_value="">156bfd5bd2844e1097a488a2dc72efd1</number_ref>
+        <number_ref display_value="SRV">156bfd5bd2844e1097a488a2dc72efd1</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

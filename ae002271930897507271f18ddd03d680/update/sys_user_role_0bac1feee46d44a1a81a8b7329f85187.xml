@@ -2,9 +2,9 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Manages the application, mechanics and configuration</description>
+        <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>fJKuR/lTUsPU84FvcQAzgffLLw6TLgYN18Vhu8UQVWA=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_2220337_vehicl_0.service_admin</name>

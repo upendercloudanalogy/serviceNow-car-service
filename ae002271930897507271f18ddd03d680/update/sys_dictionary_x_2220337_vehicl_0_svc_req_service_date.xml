@@ -48,7 +48,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-21 07:55:47</sys_created_on>
-        <sys_id>3c4c3d6357ce40578ab88193b4d4ba51</sys_id>
         <sys_name>Service Date</sys_name>
         <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
         <sys_policy/>

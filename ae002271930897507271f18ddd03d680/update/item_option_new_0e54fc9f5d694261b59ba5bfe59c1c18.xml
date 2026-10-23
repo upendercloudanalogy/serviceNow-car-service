@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="">975ac69d66274be09cb415b0d36ab127</cat_item>
+        <cat_item display_value="Book Vehicle Service">975ac69d66274be09cb415b0d36ab127</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -128,6 +128,23 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-10-23 04:56:29</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>0e54fc9f5d694261b59ba5bfe59c1c18</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-23 04:56:30</sys_created_on>
+        <sys_id>2f9f882e93089b507271f18ddd03d6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-23 04:56:30</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

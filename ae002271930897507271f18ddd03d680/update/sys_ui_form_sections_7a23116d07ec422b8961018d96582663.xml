@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
-            <sys_ui_section display_value="">f3a1230dcbcc429d8a2d308c9fa510b6</sys_ui_section>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">f3a1230dcbcc429d8a2d308c9fa510b6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
-            <sys_ui_section display_value="">6f4e0f0c3a2341c58876c63dbcd5bbd3</sys_ui_section>
+            <sys_ui_section caption="Professional Information" display_value="Professional Information" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">6f4e0f0c3a2341c58876c63dbcd5bbd3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
-            <sys_ui_section display_value="">66f4ca3c564b42e58479c7cd211084b4</sys_ui_section>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">66f4ca3c564b42e58479c7cd211084b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_mechanic" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">7a23116d07ec422b8961018d96582663</sys_ui_form>
-            <sys_ui_section display_value="">1886052c38534b9a847bf243aa6d1b7c</sys_ui_section>
+            <sys_ui_section caption="Activity/Notes" display_value="Activity/Notes" name="x_2220337_vehicl_0_mechanic" sys_domain="global" view="Default view">1886052c38534b9a847bf243aa6d1b7c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:34</sys_updated_on>
         </sys_ui_form_section>

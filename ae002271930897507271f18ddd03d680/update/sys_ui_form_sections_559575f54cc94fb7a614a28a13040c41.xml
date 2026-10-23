@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
-            <sys_ui_section display_value="">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
+            <sys_ui_section caption="Vehicle Information" display_value="Vehicle Information" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">f0f59994720249dabdca3fadffc03b33</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:30</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
-            <sys_ui_section display_value="">a2b8e720f75e4ea1af98244f191763ec</sys_ui_section>
+            <sys_ui_section caption="Owner Details" display_value="Owner Details" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">a2b8e720f75e4ea1af98244f191763ec</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:30</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
-            <sys_ui_section display_value="">8e61eb573046490f8e61d8608fc3a57d</sys_ui_section>
+            <sys_ui_section caption="Service History" display_value="Service History" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">8e61eb573046490f8e61d8608fc3a57d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:30</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_2220337_vehicl_0_vehicle" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">559575f54cc94fb7a614a28a13040c41</sys_ui_form>
-            <sys_ui_section display_value="">27f64c82f9f44ceaaa6870218e65daf1</sys_ui_section>
+            <sys_ui_section caption="Activity/Notes" display_value="Activity/Notes" name="x_2220337_vehicl_0_vehicle" sys_domain="global" view="Default view">27f64c82f9f44ceaaa6870218e65daf1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:57:31</sys_updated_on>
         </sys_ui_form_section>
