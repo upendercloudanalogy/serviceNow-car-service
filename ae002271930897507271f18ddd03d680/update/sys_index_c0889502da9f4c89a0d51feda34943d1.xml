@@ -2,7 +2,8 @@
     <sys_index action="INSERT_OR_UPDATE">
         <access_method/>
         <col_name_string>registration_number</col_name_string>
-        <index_col_name element="registration_number" name="x_2220337_vehicl_0_vehicle">a2c7afbb0fef47f0999c9e4a1146e07e</index_col_name>
+        <index_col_name element="registration_number" name="x_2220337_vehicl_0_vehicle">bdb526dac3e05f10e02af6edd40131ab<sys_dictionary element="registration_number" name="x_2220337_vehicl_0_vehicle">bdb526dac3e05f10e02af6edd40131ab</sys_dictionary>
+        </index_col_name>
         <logical_table_name>x_2220337_vehicl_0_vehicle</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>admin</sys_created_by>

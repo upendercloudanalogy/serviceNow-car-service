@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-10-21 07:56:45</sys_created_on>
+            <sys_id>cfb56adac3e05f10e02af6edd401311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>service_type</sys_name>
             <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2026-10-21 07:56:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>70d56a1ec3e05f10e02af6edd4013162</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:56:45</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2026-10-21 07:56:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4d56a1ec3e05f10e02af6edd401317d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:56:45</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2026-10-21 07:56:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>34d56a1ec3e05f10e02af6edd401318c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:56:46</sys_updated_on>
@@ -86,6 +90,7 @@
             <sys_created_on>2026-10-21 07:56:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0d56a1ec3e05f10e02af6edd401319b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-10-21 07:56:47</sys_updated_on>

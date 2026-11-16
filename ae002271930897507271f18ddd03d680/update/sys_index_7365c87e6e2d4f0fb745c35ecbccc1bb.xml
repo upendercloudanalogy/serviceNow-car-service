@@ -2,7 +2,8 @@
     <sys_index action="INSERT_OR_UPDATE">
         <access_method/>
         <col_name_string>email</col_name_string>
-        <index_col_name element="email" name="x_2220337_vehicl_0_mechanic">988432de41324b0e9761493cf3c007d7</index_col_name>
+        <index_col_name element="email" name="x_2220337_vehicl_0_mechanic">f9b526dac3e05f10e02af6edd4013131<sys_dictionary element="email" name="x_2220337_vehicl_0_mechanic">f9b526dac3e05f10e02af6edd4013131</sys_dictionary>
+        </index_col_name>
         <logical_table_name>x_2220337_vehicl_0_mechanic</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>admin</sys_created_by>
