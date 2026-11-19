@@ -28,24 +28,58 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous) {
-    // Only auto-assign if mechanic is not already set
     if (current.getValue('mechanic')) return;
     
     var serviceType = current.getValue('service_type');
-    var specialization = 'general';
+    var specializations = [];
     
-    if (serviceType === 'repair') specialization = 'engine';
-    else if (serviceType === 'inspection') specialization = 'electrical';
+    // Map service type to specializations
+    if (serviceType === 'repair') {
+        specializations = ['engine', 'electrical', 'body_work'];
+    } else {
+        specializations = ['general'];
+    }
     
-    var mechGr = new GlideRecord('x_2220337_vehicl_0_mechanic');
-    mechGr.addQuery('specialization', specialization);
-    mechGr.addQuery('active', true);
-    mechGr.setLimit(1);
-    mechGr.query();
+    var maxJobs = parseInt(gs.getProperty('x_2220337_vehicl_0.max_jobs_per_day', '3'));
+    var serviceDate = current.getValue('service_date');
+    var bestMechanic = null;
+    var fewestJobs = maxJobs;
     
-    if (mechGr.next()) {
-        current.setValue('mechanic', mechGr.getUniqueValue());
-        gs.info('Auto-assigned mechanic: ' + mechGr.getValue('first_name') + ' ' + mechGr.getValue('last_name'));
+    for (var s = 0; s < specializations.length; s++) {
+        var mechGr = new GlideRecord('x_2220337_vehicl_0_mechanic');
+        mechGr.addQuery('specialization', specializations[s]);
+        mechGr.addQuery('active', true);
+        mechGr.query();
+        
+        while (mechGr.next()) {
+            // Count active jobs for this mechanic on the service date
+            var jobCount = new GlideAggregate('x_2220337_vehicl_0_svc_req');
+            jobCount.addQuery('mechanic', mechGr.getUniqueValue());
+            jobCount.addQuery('service_date', serviceDate);
+            jobCount.addQuery('status', 'IN', 'booked,in_service');
+            jobCount.addAggregate('COUNT');
+            jobCount.query();
+            
+            var count = 0;
+            if (jobCount.next()) {
+                count = parseInt(jobCount.getAggregate('COUNT'));
+            }
+            
+            if (count < fewestJobs) {
+                fewestJobs = count;
+                bestMechanic = mechGr.getUniqueValue();
+            }
+        }
+    }
+    
+    if (bestMechanic) {
+        current.setValue('mechanic', bestMechanic);
+        var mechName = new GlideRecord('x_2220337_vehicl_0_mechanic');
+        if (mechName.get(bestMechanic)) {
+            gs.addInfoMessage('Auto-assigned mechanic: ' + mechName.getValue('first_name') + ' ' + mechName.getValue('last_name'));
+        }
+    } else {
+        gs.addInfoMessage('No available mechanic found for the selected service type and date. Please assign manually.');
     }
 })(current, previous);
 ]]></script>

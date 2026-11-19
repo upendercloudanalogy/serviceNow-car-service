@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When mechanic changes, checks workload via GlideAjax and warns if the mechanic has 2 or more current jobs.</description>
+        <field>mechanic</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Mechanic Load Warning</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') return;
+
+    var serviceType = g_form.getValue('service_type');
+    var ga = new GlideAjax('x_2220337_vehicl_0.VehicleUtilsAjax');
+    ga.addParam('sysparm_name', 'getAvailableMechanics');
+    ga.addParam('sysparm_service_type', serviceType);
+    ga.getXMLAnswer(function(answer) {
+        try {
+            var mechanics = JSON.parse(answer);
+            var maxJobs = 3;
+            for (var i = 0; i < mechanics.length; i++) {
+                if (mechanics[i].sys_id === newValue) {
+                    var currentJobs = parseInt(mechanics[i].current_jobs, 10) || 0;
+                    if (currentJobs >= 2) {
+                        g_form.addInfoMessage(
+                            mechanics[i].name + ' currently has ' + currentJobs +
+                            ' of ' + maxJobs + ' maximum jobs assigned. Consider selecting another mechanic.'
+                        );
+                    }
+                    break;
+                }
+            }
+        } catch (e) {
+            // Silently handle parse errors
+        }
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-19 04:22:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>825bb7708c6545e9b997f2d0b1e72c3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mechanic Load Warning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_script_client_825bb7708c6545e9b997f2d0b1e72c3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-19 04:22:53</sys_updated_on>
+        <table>x_2220337_vehicl_0_svc_req</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

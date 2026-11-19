@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">deeac7b956bd41aeba37a924556ea2fc</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"headerTitle":"Estimated Revenue by Month","dataSources":[{"sourceType":"table","tableOrViewName":"x_2220337_vehicl_0_svc_req","filterQuery":"status=delivered","id":"ds_rev"}],"metrics":[{"dataSource":"ds_rev","aggregateFunction":"SUM","field":"estimated_cost","axisId":"primary","id":"metric_rev"}],"trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"service_date","metric":"metric_rev"}]},"showLegend":true,"showDataLabels":true}</component_props>
+        <h>16</h>
+        <name>Estimated Revenue by Month</name>
+        <required_translations/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-19 04:09:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8dc476c05ce34bf590acd19ee05dc806</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Estimated Revenue by Month</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>par_dashboard_widget_8dc476c05ce34bf590acd19ee05dc806</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-19 04:09:51</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>24</x>
+        <y>16</y>
+    </par_dashboard_widget>
+</record_update>
