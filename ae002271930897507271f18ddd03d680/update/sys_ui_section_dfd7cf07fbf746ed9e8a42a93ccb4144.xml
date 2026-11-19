@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Job Details" section_id="dfd7cf07fbf746ed9e8a42a93ccb4144" sys_domain="global" table="x_2220337_vehicl_0_svc_req" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>9453d4a3e258447da3cbe488b09a5a6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mechanic</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>627bd8e50c9f4d32b9b09760d5a2745d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_cost</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>85743abea94e4a56a05377f955b9b24d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cancellation_reason</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>a17a562671dd4ffaa51fa74da335f568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>dd53b7670ba34fd8b7b9e6589b1bf7e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>8403994462914606af62c97e87421eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>odometer_reading</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>ca2d4c17ef1c4b0ea85c9878155b60f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_id>c2ce36aa07a54b89b2cf683e3f8bfbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Job Details" display_value="Job Details" name="x_2220337_vehicl_0_svc_req" sys_domain="global" view="Default view">dfd7cf07fbf746ed9e8a42a93ccb4144</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Job Details</caption>
+            <header>false</header>
+            <name>x_2220337_vehicl_0_svc_req</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-21 07:58:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfd7cf07fbf746ed9e8a42a93ccb4144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2220337_vehicl_0_svc_req</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+            <sys_update_name>sys_ui_section_dfd7cf07fbf746ed9e8a42a93ccb4144</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-21 07:58:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

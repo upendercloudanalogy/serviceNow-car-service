@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <description/>
+        <label>Service Request Process Flow</label>
+        <name>x_2220337_vehicl_0_svc_req</name>
+        <order/>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-19 04:09:52</sys_created_on>
+        <sys_id>f8097b6accc748f6bb63bbef588f9c94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2220337_vehicl_0_svc_req</sys_name>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_process_flow_f8097b6accc748f6bb63bbef588f9c94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-19 04:09:52</sys_updated_on>
+        <table>x_2220337_vehicl_0_svc_req</table>
+    </sys_process_flow>
+</record_update>

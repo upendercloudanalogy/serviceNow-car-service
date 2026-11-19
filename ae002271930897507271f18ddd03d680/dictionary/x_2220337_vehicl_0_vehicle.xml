@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="ab8023a088f3425d8d2e3b65194ddb51" label="Vehicle" name="x_2220337_vehicl_0_vehicle" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" label="Number" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Vehicle Type" mandatory="true" name="vehicle_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Car" sequence="1" value="car"/>
+                <element inactive_on_update="false" label="Bike" sequence="2" value="bike"/>
+            </choice>
+        </element>
+        <element label="Model" mandatory="true" name="model" type="string"/>
+        <element label="Fuel Type" mandatory="true" name="fuel_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CNG" sequence="3" value="cng"/>
+                <element inactive_on_update="false" label="Petrol" sequence="1" value="petrol"/>
+                <element inactive_on_update="false" label="Electric" sequence="4" value="electric"/>
+                <element inactive_on_update="false" label="Diesel" sequence="2" value="diesel"/>
+            </choice>
+        </element>
+        <element label="Owner" mandatory="true" name="owner" reference="x_2220337_vehicl_0_customer" type="reference"/>
+        <element label="Work Notes" name="work_notes" type="journal_input"/>
+        <element display="true" label="Registration Number" mandatory="true" name="registration_number" type="string"/>
+        <element label="Last Service Date" name="last_service_date" read_only="true" read_only_option="instance_configured" type="glide_date"/>
+        <element label="Make" mandatory="true" name="make" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="registration_number"/>
+        </index>
+    </element>
+</database>

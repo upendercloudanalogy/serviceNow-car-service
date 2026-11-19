@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>vehicle</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Auto Fill Customer from Vehicle</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    g_form.hideFieldMsg('vehicle', true);
+
+    if (isLoading || !newValue) return;
+
+    var ga = new GlideAjax('x_2220337_vehicl_0.VehicleUtilsAjax');
+    ga.addParam('sysparm_name', 'getVehicleDetails');
+    ga.addParam('sysparm_vehicle', newValue);
+
+    ga.getXMLAnswer(function(answer) {
+        if (!answer) return;
+
+        var v = JSON.parse(answer);
+        g_form.setValue('customer', v.ownerId, v.ownerName);
+
+        g_form.showFieldMsg(
+            'vehicle',
+            v.model + ' | Last service: ' + v.lastService,
+            'info'
+        );
+
+        if (v.premium) {
+            g_form.showFieldMsg(
+                'vehicle',
+                'Premium customer: request will be set to High priority',
+                'error'
+            );
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:57:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>679767cda12143fdbe31630ee67cba45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Fill Customer from Vehicle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_script_client_679767cda12143fdbe31630ee67cba45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:57:08</sys_updated_on>
+        <table>x_2220337_vehicl_0_svc_req</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

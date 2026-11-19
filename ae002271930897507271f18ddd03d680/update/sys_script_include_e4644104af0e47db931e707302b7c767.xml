@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_2220337_vehicl_0.VehicleUtilsAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>VehicleUtilsAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var VehicleUtilsAjax = Class.create();
+VehicleUtilsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getVehicleDetails: function() {
+        var id = this.getParameter('sysparm_vehicle');
+        var gr = new GlideRecord('x_2220337_vehicl_0_vehicle');
+
+        if (!gr.get(id)) return '';
+
+        return JSON.stringify({
+            ownerId: gr.getValue('owner'),
+            ownerName: gr.owner.getDisplayValue(),
+            model: gr.getValue('make') + ' ' + gr.getValue('model'),
+            lastService: gr.getDisplayValue('last_service_date') || 'Never',
+            premium: gr.owner.customer_type == 'premium'
+        });
+    },
+
+    getCustomerFromVehicle: function() {
+        var vehicleId = this.getParameter('sysparm_vehicle_id');
+        if (!vehicleId) {
+            return JSON.stringify({ error: 'No vehicle ID provided' });
+        }
+
+        var vehicleGr = new GlideRecord('x_2220337_vehicl_0_vehicle');
+        if (!vehicleGr.get(vehicleId)) {
+            return JSON.stringify({ error: 'Vehicle not found' });
+        }
+
+        var ownerId = vehicleGr.getValue('owner');
+        if (!ownerId) {
+            return JSON.stringify({ error: 'Vehicle has no owner' });
+        }
+
+        var customerGr = new GlideRecord('x_2220337_vehicl_0_customer');
+        if (!customerGr.get(ownerId)) {
+            return JSON.stringify({ error: 'Customer not found' });
+        }
+
+        return JSON.stringify({
+            customer_id: customerGr.getUniqueValue(),
+            customer_name: customerGr.getValue('first_name') + ' ' + customerGr.getValue('last_name'),
+            customer_email: customerGr.getValue('email'),
+            customer_phone: customerGr.getValue('contact_number'),
+            is_premium: customerGr.getValue('customer_type') == 'premium'
+        });
+    },
+
+    getSuggestedCost: function() {
+        var serviceType = this.getParameter('sysparm_service_type');
+        var costMap = {
+            'general_service': 2500,
+            'oil_change': 1200,
+            'inspection': 800,
+            'repair': 0
+        };
+
+        var cost = costMap.hasOwnProperty(serviceType) ? costMap[serviceType] : 0;
+
+        return JSON.stringify({
+            service_type: serviceType,
+            cost: cost
+        });
+    },
+
+    getAvailableMechanics: function() {
+        var serviceType = this.getParameter('sysparm_service_type');
+        var specMap = {
+            'general_service': 'general',
+            'oil_change': 'general',
+            'inspection': 'general',
+            'repair': 'engine'
+        };
+
+        var specialization = specMap.hasOwnProperty(serviceType) ? specMap[serviceType] : 'general';
+        var mechanics = [];
+
+        var gr = new GlideRecord('x_2220337_vehicl_0_mechanic');
+        gr.addQuery('specialization', specialization);
+        gr.addQuery('active', true);
+        gr.query();
+
+        while (gr.next()) {
+            mechanics.push({
+                sys_id: gr.getUniqueValue(),
+                name: gr.getValue('first_name') + ' ' + gr.getValue('last_name'),
+                email: gr.getValue('email'),
+                specialization: gr.getValue('specialization')
+            });
+        }
+
+        return JSON.stringify(mechanics);
+    },
+
+    getVehiclesByCustomer: function() {
+        var customerId = this.getParameter('sysparm_customer_id');
+        if (!customerId) {
+            return JSON.stringify([]);
+        }
+
+        var vehicles = [];
+        var gr = new GlideRecord('x_2220337_vehicl_0_vehicle');
+        gr.addQuery('owner', customerId);
+        gr.query();
+
+        while (gr.next()) {
+            vehicles.push({
+                sys_id: gr.getUniqueValue(),
+                registration_number: gr.getValue('registration_number'),
+                make: gr.getValue('make'),
+                model: gr.getValue('model'),
+                vehicle_type: gr.getValue('vehicle_type'),
+                fuel_type: gr.getValue('fuel_type'),
+                last_service_date: gr.getDisplayValue('last_service_date') || 'Never'
+            });
+        }
+
+        return JSON.stringify(vehicles);
+    },
+
+    type: 'VehicleUtilsAjax'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 07:57:10</sys_created_on>
+        <sys_id>e4644104af0e47db931e707302b7c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VehicleUtilsAjax</sys_name>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_script_include_e4644104af0e47db931e707302b7c767</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 07:57:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

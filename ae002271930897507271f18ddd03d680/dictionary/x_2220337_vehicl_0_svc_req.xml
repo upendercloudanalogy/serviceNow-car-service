@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="12761d4b1348403e8816c45c5b1a1b2e" extends="task" label="Service Request" name="x_2220337_vehicl_0_svc_req" type="collection">
+        <element label="Vehicle" mandatory="true" name="vehicle" reference="x_2220337_vehicl_0_vehicle" type="reference"/>
+        <element label="Service Date" mandatory="true" name="service_date" type="glide_date"/>
+        <element default="booked" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Service" sequence="2" value="in_service"/>
+                <element inactive_on_update="false" label="Delivered" sequence="4" value="delivered"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+                <element inactive_on_update="false" label="Ready for Pickup" sequence="3" value="ready_for_pickup"/>
+                <element inactive_on_update="false" label="Booked" sequence="1" value="booked"/>
+            </choice>
+        </element>
+        <element label="Cancellation Reason" max_length="500" name="cancellation_reason" type="string"/>
+        <element label="Time Slot" mandatory="true" name="time_slot" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Afternoon" sequence="2" value="afternoon"/>
+                <element inactive_on_update="false" label="Morning" sequence="1" value="morning"/>
+            </choice>
+        </element>
+        <element label="Customer" name="customer" reference="x_2220337_vehicl_0_customer" type="reference"/>
+        <element label="Service Type" mandatory="true" name="service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Repair" sequence="3" value="repair"/>
+                <element inactive_on_update="false" label="General Service" sequence="1" value="general_service"/>
+                <element inactive_on_update="false" label="Inspection" sequence="4" value="inspection"/>
+                <element inactive_on_update="false" label="Oil Change" sequence="2" value="oil_change"/>
+            </choice>
+        </element>
+        <element label="Mechanic" mandatory="true" name="mechanic" reference="x_2220337_vehicl_0_mechanic" reference_qual="active=true" type="reference"/>
+        <element label="Odometer Reading" name="odometer_reading" type="integer"/>
+        <element label="Estimated Cost" name="estimated_cost" type="decimal"/>
+    </element>
+</database>

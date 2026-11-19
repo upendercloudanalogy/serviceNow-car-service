@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="77b56846287941e1905ff1a3198fd816" label="Customer" name="x_2220337_vehicl_0_customer" type="collection">
+        <element display="true" label="Last Name" mandatory="true" name="last_name" type="string"/>
+        <element label="Address" max_length="1000" name="address" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" label="Number" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="First Name" mandatory="true" name="first_name" type="string"/>
+        <element label="User" name="user" reference="sys_user" type="reference"/>
+        <element label="Email" mandatory="true" name="email" type="email"/>
+        <element default="regular" label="Customer Type" name="customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Regular" sequence="1" value="regular"/>
+                <element inactive_on_update="false" label="Premium" sequence="2" value="premium"/>
+            </choice>
+        </element>
+        <element label="Work Notes" name="work_notes" type="journal_input"/>
+        <element label="Contact Number" mandatory="true" max_length="40" name="contact_number" type="string"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_2220337_vehicl_0_svc_req</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Assign Mechanic by Specialization</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+    if (current.getValue('mechanic')) return;
+    
+    var serviceType = current.getValue('service_type');
+    var specializations = [];
+    
+    // Map service type to specializations
+    if (serviceType === 'repair') {
+        specializations = ['engine', 'electrical', 'body_work'];
+    } else {
+        specializations = ['general'];
+    }
+    
+    var maxJobs = parseInt(gs.getProperty('x_2220337_vehicl_0.max_jobs_per_day', '3'));
+    var serviceDate = current.getValue('service_date');
+    var bestMechanic = null;
+    var fewestJobs = maxJobs;
+    
+    for (var s = 0; s < specializations.length; s++) {
+        var mechGr = new GlideRecord('x_2220337_vehicl_0_mechanic');
+        mechGr.addQuery('specialization', specializations[s]);
+        mechGr.addQuery('active', true);
+        mechGr.query();
+        
+        while (mechGr.next()) {
+            // Count active jobs for this mechanic on the service date
+            var jobCount = new GlideAggregate('x_2220337_vehicl_0_svc_req');
+            jobCount.addQuery('mechanic', mechGr.getUniqueValue());
+            jobCount.addQuery('service_date', serviceDate);
+            jobCount.addQuery('status', 'IN', 'booked,in_service');
+            jobCount.addAggregate('COUNT');
+            jobCount.query();
+            
+            var count = 0;
+            if (jobCount.next()) {
+                count = parseInt(jobCount.getAggregate('COUNT'));
+            }
+            
+            if (count < fewestJobs) {
+                fewestJobs = count;
+                bestMechanic = mechGr.getUniqueValue();
+            }
+        }
+    }
+    
+    if (bestMechanic) {
+        current.setValue('mechanic', bestMechanic);
+        var mechName = new GlideRecord('x_2220337_vehicl_0_mechanic');
+        if (mechName.get(bestMechanic)) {
+            gs.addInfoMessage('Auto-assigned mechanic: ' + mechName.getValue('first_name') + ' ' + mechName.getValue('last_name'));
+        }
+    } else {
+        gs.addInfoMessage('No available mechanic found for the selected service type and date. Please assign manually.');
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-23 04:49:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c59111961f304948a1cfaaa2b6040a61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Assign Mechanic by Specialization</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vehicle Service Center" source="x_2220337_vehicl_0">ae002271930897507271f18ddd03d680</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Service Center">ae002271930897507271f18ddd03d680</sys_scope>
+        <sys_update_name>sys_script_c59111961f304948a1cfaaa2b6040a61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-23 04:49:46</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c59111961f304948a1cfaaa2b6040a61"/>
+</record_update>
